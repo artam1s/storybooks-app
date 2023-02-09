@@ -37,7 +37,7 @@ app.use(session({
 
 
 // Passport middleware
-app.use(passport.initialize)
+app.use(passport.initialize())
 app.use(passport.session())
 
 // Static folder
